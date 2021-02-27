@@ -1,0 +1,31 @@
+Flex box
+* Display : 	+ flex -> Tạo ra một dãy nằm theo 1 đường trục
+		+ inline-flex -> Nhiều dãy trên 1 hàng
+* flex-direction : 	row(default) | colum -Xếp theo hàng hay cột
+* flex-wrap : 	+ nowrap(default) -> không xuống dòng
+	  	+ wrap -> xuống dòng
+	    	+ wrap-reverse -> lên dòng
+* flex-basic: <lenght> kích thước của các flex item theo trục(dọc or ngang)
+*justify-content: Căn hướng của các item 
+	+ flex-start -> dãy nằm từ điểm bắt đầu(mặc định theo ngôn ngữ xem - thường bên trái)
+	+ flex-end -> dãy nằm bên điểm cuối (thường bên trái)
+	+ center -> dãy nằm trung tâm
+	+  space-between : 
+	+ space-around
+*justify-seft : xét cho từng  item
+	+flex-start
+	+flex-end
+	+center
+*align-content: xét các item ở giữa theo trục
+	+flex-start
+	+flex-end
+	+center
+*align-seft : xét từng item ở giữa theo trục
+	+flex-start
+	+flex-end
+	+center
+*flex- grow : <number> thay đổi kích thức của main size 
+* flex-shirnk: <number>
+* flex : <number> cú pháp ngắn của flex basic | flex-grow | flex-shirnk
+* oder: <number> Xắp xếp
+
