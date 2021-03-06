@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee</title>
+
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- Resets Css -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!-- Css Common -->
+    <link rel="stylesheet" href="assets/css/base.css">
+
+    <!-- Css Main -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="header">
+        <div class="header__nav">
+            <div class="nav__left">
+                <ul class="nav__left-list">
+                    <li class="nav__item"><a href="#">Kênh người bán </a></li>
+                    <li class="nav__item"><a href="#">Tải ứng dụng </a>
+                        <div class="header__qr">
+                            <img class="img__qr" src="./assets/img/Qa_code/QA_Code.png" alt="Qa Code">
+                            <div class="header__qr-app">
+                                <a href="#"><i class="fab fa-app-store-ios"></i><span> App Store</span>
+                                <a href="#"><i class="fab fa-google-play"></i><span>Google Play</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__item"><a href="#">Kết nối </a></li>
+                    <li class="nav__item show--title" gloss="Folow on Facebook">
+                        <a href="#"><i class="nav__icon fab fa-facebook-square"></i></a>
+                    </li>
+                    <li class="nav__item show--title" gloss="Folow on Instargram">
+                        <a href="#"><i class="nav__icon fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__right">
+                <ul class="nav__right-list">
+                    <li class="nav__item">
+                        <a href="#"><i class="nav__icon far fa-bell"></i>Thông báo</a>
+                        <div class="header__notify">
+                            <h3 class="header__notify-heading">Thông báo mới nhận</h3>
+                            <ul class="header__notify-list">
+                                <li class="header__notify-item">
+                                    <img class="header__notify-img" src="./assets/img/search_trends/DoNgu-01.jpg" alt="Img">
+                                    <a class="header__notify-link" href="#">
+                                        <h4 class="header__notify-name">Xác thực chính xác nguồn gốc sản phẩm Ohui</h4>
+                                        <p class="header__notify-decription">Mô tả Mỹ phẩm Uhui chính hãng có nguồn gốc xuất xứ rõ ràng</p>
+                                    </a>
+                                </li>
+                                <li class="header__notify-item">
+                                    <img class="header__notify-img" src="./assets/img/search_trends/AoThunNamTru-01.jpg" alt="Img">
+                                    <a class="header__notify-link" href="#">
+                                        <h4 class="header__notify-name">Sale bộ cốc Ohui One The Firt tái tạo trẻ hóa da Sale Off 70%</h4>
+                                        <p class="header__notify-decription">Siêu sale duy nhất ngày 21-3-2021</p>
+                                    </a>
+                                </li>
+                                <li class="header__notify-item ">
+                                    <img class="header__notify-img" src="./assets/img/search_trends/GiayNam-01.jpg" alt="Img">
+                                    <a class="header__notify-link" href="#">
+                                        <h4 class="header__notify-name">Da nhạy cảm thì có dùng được Recent không?</h4>
+                                        <p class="header__notify-decription">"Da mình nhạy cảm thì có dùng được Recent không?"</p>
+                                    </a>
+                                </li>
+                                <li class="header__notify-item watched">
+                                    <img class="header__notify-img" src="./assets/img/search_trends/DamTaiTho-02.jpg" alt="Img">
+                                    <a class="header__notify-link" href="#">
+                                        <h4 class="header__notify-name">Bộ sưu tập của phiên bản giói hạn 2019</h4>
+                                        <p class="header__notify-decription">"Bộ sưu tập của phiên bản giói hạn 2019"</p>
+                                    </a>
+                                </li>
+                                <li class="header__notify-item ">
+                                    <img class="header__notify-img" src="./assets/img/search_trends/TaiNghe-Xiaomi-02.jpg" alt="Img">
+                                    <a class="header__notify-link" href="#">
+                                        <h4 class="header__notify-name">Ohui chính thức ra dòng son môi mới THE FIRST GENTURE LIPSTICK</h4>
+                                        <p class="header__notify-decription">"THE FIRST GENTURE LIPSTICK tuyệt phẩm cho đôi môi"</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a class="header__nottify-viewall" href="#">Xem tất cả</a>
+                        </div>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#"><i class="nav__icon far fa-question-circle"></i>Trợ giúp</a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="#">Đăng Nhập</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Đăng Kí</a>
+                    </li> -->
+                    <li class="nav__item">
+                        <img class="nav_item-log-img" src="https://avatar-redirect.appspot.com/google/112463390507682449842?size=400" alt="">
+                        <a href="#">Phương Giang</a>
+
+                        <div class="nav__item-authen">
+                            <ul>
+                                <li><a href="#">Tài khoản của tôi</a></li>
+                                <li><a href="#">Địa chỉ của tôi</a></li>
+                                <li><a href="#">Đơn mua</a></li>
+                                <li><a href="#">Đăng xuất</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__main">
+            <div class="header__logo">
+                <a class="header__logo-link" href="">
+                    <img title="Mona Shop- Một trang web được tạo bởi Phương Piang" src="http://mauweb.monamedia.net/shopee/wp-content/uploads/2017/10/Logo11.svg" alt="Logo">
+                </a>
+            </div>
+            <div class="header__search">
+                <div class="header__search-wrap">
+                    <input class="header__search-input" type="text" name="" id="" placeholder="Tìm sản phẩm, thương hiệu và tên shop. ">
+                    <div class="search__history">
+                        <h4 class="search__history-heading">Lịch sử tìm kiếm</h4>
+                        <ul class="search__history-list">
+                            <li class="search__history-item"><a href="#"> Áo thun</a></li>
+                            <li class="search__history-item"><a href="#"> Điện thoại xiao me</a></li>
+                            <li class="search__history-item"><a href="#"> Giày shop</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav__search-select">
+                    <span class="nav__search-select-lable">Trong Shop</span>
+                    <i class="nav__search-select-icon fas fa-angle-down"></i>
+                    <ul class="nav__search-select-list">
+                        <li class="nav__search-select-item">
+                            <a href="#">Trong shop<i class="fas fa-check"></i></a>
+                        </li>
+                        <li class="nav__search-select-item">
+                            <a href="#">Ngoài shop<i class="fas fa-check"></i></a>
+
+                        </li>
+                        <li class="nav__search-select-item">
+                            <a href="#">Trong shop<i class="fas fa-check"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__search-btn">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            <div class="header__cart">
+                <!--Add class: nocart -->
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart__notice">3</span>
+                <div class="header__cart-body">
+                    <!-- Have cart -->
+                    <div class="have__cart">
+                        <h3 class="cart__heading">Sản phẩm đã thêm</h3>
+                        <ul class="cart__list">
+                            <li class="cart__item">
+                                <img class="cart_item-img" src="https://cf.shopee.vn/file/f2a65c14ba3d7a2b82da0eea9cc79faa" alt="">
+                                <div class="cart__item-body">
+                                    <div class="cart__item-info">
+                                        <h4 class="cart__item-info-heading">Bộ kem đặc trị vùng mắt 0...</h4>
+                                        <div>
+                                            <span class="cart__item-info-price">2.070.000đ</span>
+                                            <span class="cart__item-info-multiply">x</span>
+                                            <span class="cart__item-info-quatity">3</span>
+                                        </div>
+                                    </div>
+                                    <div class="cart__item-decription">
+                                        <span class="cart__item-decription-text">Phân loại hàng Bạc</span>
+                                        <span class="cart__item-decription-btn ">Xóa</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="cart__item">
+                                <img class="cart_item-img" src="https://cf.shopee.vn/file/f2a65c14ba3d7a2b82da0eea9cc79faa" alt="">
+                                <div class="cart__item-body">
+                                    <div class="cart__item-info">
+                                        <h4 class="cart__item-info-heading">Bộ kem đặc trị vùng mắt 0...</h4>
+                                        <div>
+                                            <span class="cart__item-info-price">2.070.000đ</span>
+                                            <span class="cart__item-info-multiply">x</span>
+                                            <span class="cart__item-info-quatity">3</span>
+                                        </div>
+                                    </div>
+                                    <div class="cart__item-decription">
+                                        <span class="cart__item-decription-text">Phân loại hàng Bạc</span>
+                                        <span class="cart__item-decription-btn ">Xóa</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cart__item">
+                                <img class="cart_item-img" src="https://cf.shopee.vn/file/f2a65c14ba3d7a2b82da0eea9cc79faa" alt="">
+                                <div class="cart__item-body">
+                                    <div class="cart__item-info">
+                                        <h4 class="cart__item-info-heading">Bộ kem đặc trị vùng mắt 0...</h4>
+                                        <div>
+                                            <span class="cart__item-info-price">2.070.000đ</span>
+                                            <span class="cart__item-info-multiply">x</span>
+                                            <span class="cart__item-info-quatity">3</span>
+                                        </div>
+                                    </div>
+                                    <div class="cart__item-decription">
+                                        <span class="cart__item-decription-text">Phân loại hàng Bạc</span>
+                                        <span class="cart__item-decription-btn ">Xóa</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cart__item">
+                                <img class="cart_item-img" src="https://cf.shopee.vn/file/f2a65c14ba3d7a2b82da0eea9cc79faa" alt="">
+                                <div class="cart__item-body">
+                                    <div class="cart__item-info">
+                                        <h4 class="cart__item-info-heading">Bộ kem đặc trị vùng mắt 0...</h4>
+                                        <div>
+                                            <span class="cart__item-info-price">2.070.000đ</span>
+                                            <span class="cart__item-info-multiply">x</span>
+                                            <span class="cart__item-info-quatity">3</span>
+                                        </div>
+                                    </div>
+                                    <div class="cart__item-decription">
+                                        <span class="cart__item-decription-text">Phân loại hàng Bạc</span>
+                                        <span class="cart__item-decription-btn ">Xóa</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cart__item">
+                                <img class="cart_item-img" src="https://cf.shopee.vn/file/f2a65c14ba3d7a2b82da0eea9cc79faa" alt="">
+                                <div class="cart__item-body">
+                                    <div class="cart__item-info ">
+                                        <h4 class="cart__item-info-heading">Bộ kem đặc trị vùng mắt 0...</h4>
+                                        <div>
+                                            <span class="cart__item-info-price">2.070.000đ</span>
+                                            <span class="cart__item-info-multiply">x</span>
+                                            <span class="cart__item-info-quatity">3</span>
+                                        </div>
+                                    </div>
+                                    <div class="cart__item-decription">
+                                        <span class="cart__item-decription-text">Phân loại hàng Bạc</span>
+                                        <span class="cart__item-decription-btn ">Xóa</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="cart__list-btn">
+                            <a href="#" class=" btn btn--special">Xem giỏ hàng</a>
+                        </div>
+                    </div>
+                    <!-- norcart -->
+                    <img class="header__cart-img-nocart" src="http://www.giaybinhduong.com/images/empty-cart.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="header__buttom">
+            <ul class="nav__main-list">
+                <li class="nav__item"><a href="#">Áo thun</a></li>
+                <li class="nav__item"><a href="#">Thời trang nữ</a></li>
+                <li class="nav__item"><a href="#">Điện thoại</a></li>
+                <li class="nav__item"><a href="#">Chăm sóc da</a></li>
+                <li class="nav__item"><a href="#">Mẹ & Bé</a></li>
+                <li class="nav__item"><a href="#">Đậu & Hạt</a></li>
+                <li class="nav__item"><a href="#">Đồ chơi</a></li>
+                <li class="nav__item"><a href="#">Chân váy</a></li>
+                <li class="nav__item"><a href="#">Bốt</a></li>
+                <li class="nav__item"><a href="#">Laptop</a></li>
+                <li class="nav__item"><a href="#">Mắt kính</a></li>
+                <li class="nav__item"><a href="#">Nhạc cụ</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Main -->
+    <div id="main">
+        <div class="grid content__home">
+            <div class="grid__row">
+                <div class="grid__col-2">
+                    <div class="category-main">
+                        <div class="category-main_heading">
+                            <i class="fas fa-list"></i>
+                            <h3>Danh Mục</h3>
+                        </div>
+                        <ul class="category-main__lists">
+                            <li class="item active"><a href="#">Sản Phẩm</a></li>
+                            <li class="item"><a href="#">Simple - Made in UK</a></li>
+                            <li class="item"><a href="#">Nars - Mỹ phẩm cấp cao từ USA</a></li>
+                            <li class="item"><a href="#">Vichy - Mỹ phẩm Pháp</a></li>
+                            <li class="item"><a href="#">The Ordinary - Canada</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid__col-10">
+                    <div class="home-filter">
+                        <div class="home-filter__lists-btn">
+                            <span>Xắp xếp theo</span>
+                            <a href="#" class="btn">Phổ biến</a>
+                            <a href="#" class="btn btn--special">Mới nhất</a>
+                            <a href="#" class="btn">Bán chạy</a>
+                            <div class="select__price">
+                                <span>Giá</span>
+                                <i class="fas fa-angle-down"></i>
+                                <ul class="list">
+                                    <li class="item"><a href="#">Giá : Cao đến thấp</a></li>
+                                    <li class="item"><a href="#">Giá : Thấp đến cao</a></li>
+                                </ul>
+                            </div>
+                            <div class="home-filter__page">
+                                <div class="page">
+                                    <span class="page__now">1</span>/15
+                                </div>
+                                <a href="#" class="page-btn disable">
+                                    <i class="fas fa-angle-left"></i>
+                                </a>
+                                <a href="#" class="page-btn">
+                                    <i class="fas fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__row ">
+                        <div class="grid__col-10-5 mt-10">
+                            <a href="#" class="product__item">
+                                <div class="product__img" style="background-image: url(https://cf.shopee.vn/file/e6726cfeeb598c5b6903e35cce53a4e4)"></div>
+                                <div class="product__info">
+                                    <h3 class="product__name">Nars - Kem Che Khuyết Điểm NARS xuất xứ Châu Âu và trung Quốc</h3>
+                                    <div class="product__price">
+                                        <span class="product__price-old">380.000đ</span>
+                                        <span class="product__price-new">304.000đ</span>
+                                        <span class="product__price-free-ship"><i class="fas fa-truck"></i></span>
+                                    </div>
+                                    <div class="product__quality">
+                                        <div class="product__quality-love loved">
+                                            <i class="far fa-heart"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="product__quality-star">
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star"></i>
+                                            <div class="product__quality-sell">Đã bán 1.7k</div>
+                                        </div>
+
+                                    </div>
+                                    <div class="product__address">
+                                        <span class="product__address-trademark">Ohui</span>
+                                        <span class="product__address-origin">Tp.Hồ Chí Minh</span>
+                                    </div>
+                                </div>
+
+                                <div class="product__favourite">
+                                    Yêu thích
+                                </div>
+                                <div class="product__sale">
+                                    <span class="product__sale-percent">43%</span>
+                                    <span class="product__sale-text">Giảm</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__col-10-5 mt-10">
+                            <a href="#" class="product__item">
+                                <div class="product__img" style="background-image: url(https://cf.shopee.vn/file/e6726cfeeb598c5b6903e35cce53a4e4)"></div>
+                                <div class="product__info">
+                                    <h3 class="product__name">Nars - Kem Che Khuyết Điểm NARS xuất xứ Châu Âu và trung Quốc</h3>
+                                    <div class="product__price">
+                                        <span class="product__price-old">380.000đ</span>
+                                        <span class="product__price-new">304.000đ</span>
+                                        <span class="product__price-free-ship"><i class="fas fa-truck"></i></span>
+                                    </div>
+                                    <div class="product__quality">
+                                        <div class="product__quality-love loved">
+                                            <i class="far fa-heart"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="product__quality-star">
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star"></i>
+                                            <div class="product__quality-sell">Đã bán 1.7k</div>
+                                        </div>
+
+                                    </div>
+                                    <div class="product__address">
+                                        <span class="product__address-trademark">Ohui</span>
+                                        <span class="product__address-origin">Tp.Hồ Chí Minh</span>
+                                    </div>
+                                </div>
+
+                                <div class="product__favourite">
+                                    Yêu thích
+                                </div>
+                                <div class="product__sale">
+                                    <span class="product__sale-percent">43%</span>
+                                    <span class="product__sale-text">Giảm</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__col-10-5 mt-10">
+                            <a href="#" class="product__item">
+                                <div class="product__img" style="background-image: url(https://cf.shopee.vn/file/e6726cfeeb598c5b6903e35cce53a4e4)"></div>
+                                <div class="product__info">
+                                    <h3 class="product__name">Nars - Kem Che Khuyết Điểm NARS xuất xứ Châu Âu và trung Quốc</h3>
+                                    <div class="product__price">
+                                        <span class="product__price-old">380.000đ</span>
+                                        <span class="product__price-new">304.000đ</span>
+                                        <span class="product__price-free-ship"><i class="fas fa-truck"></i></span>
+                                    </div>
+                                    <div class="product__quality">
+                                        <div class="product__quality-love loved">
+                                            <i class="far fa-heart"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="product__quality-star">
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star"></i>
+                                            <div class="product__quality-sell">Đã bán 1.7k</div>
+                                        </div>
+
+                                    </div>
+                                    <div class="product__address">
+                                        <span class="product__address-trademark">Ohui</span>
+                                        <span class="product__address-origin">Tp.Hồ Chí Minh</span>
+                                    </div>
+                                </div>
+
+                                <div class="product__favourite">
+                                    Yêu thích
+                                </div>
+                                <div class="product__sale">
+                                    <span class="product__sale-percent">43%</span>
+                                    <span class="product__sale-text">Giảm</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__col-10-5 mt-10">
+                            <a href="#" class="product__item">
+                                <div class="product__img" style="background-image: url(https://cf.shopee.vn/file/e6726cfeeb598c5b6903e35cce53a4e4)"></div>
+                                <div class="product__info">
+                                    <h3 class="product__name">Nars - Kem Che Khuyết Điểm NARS xuất xứ Châu Âu và trung Quốc</h3>
+                                    <div class="product__price">
+                                        <span class="product__price-old">380.000đ</span>
+                                        <span class="product__price-new">304.000đ</span>
+                                        <span class="product__price-free-ship"><i class="fas fa-truck"></i></span>
+                                    </div>
+                                    <div class="product__quality">
+                                        <div class="product__quality-love loved">
+                                            <i class="far fa-heart"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="product__quality-star">
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star"></i>
+                                            <div class="product__quality-sell">Đã bán 1.7k</div>
+                                        </div>
+
+                                    </div>
+                                    <div class="product__address">
+                                        <span class="product__address-trademark">Ohui</span>
+                                        <span class="product__address-origin">Tp.Hồ Chí Minh</span>
+                                    </div>
+                                </div>
+
+                                <div class="product__favourite">
+                                    Yêu thích
+                                </div>
+                                <div class="product__sale">
+                                    <span class="product__sale-percent">43%</span>
+                                    <span class="product__sale-text">Giảm</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__col-10-5 mt-10">
+                            <a href="#" class="product__item">
+                                <div class="product__img" style="background-image: url(https://cf.shopee.vn/file/e6726cfeeb598c5b6903e35cce53a4e4)"></div>
+                                <div class="product__info">
+                                    <h3 class="product__name">Nars - Kem Che Khuyết Điểm NARS xuất xứ Châu Âu và trung Quốc</h3>
+                                    <div class="product__price">
+                                        <span class="product__price-old">380.000đ</span>
+                                        <span class="product__price-new">304.000đ</span>
+                                        <span class="product__price-free-ship"><i class="fas fa-truck"></i></span>
+                                    </div>
+                                    <div class="product__quality">
+                                        <div class="product__quality-love loved">
+                                            <i class="far fa-heart"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="product__quality-star">
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star"></i>
+                                            <div class="product__quality-sell">Đã bán 1.7k</div>
+                                        </div>
+
+                                    </div>
+                                    <div class="product__address">
+                                        <span class="product__address-trademark">Ohui</span>
+                                        <span class="product__address-origin">Tp.Hồ Chí Minh</span>
+                                    </div>
+                                </div>
+
+                                <div class="product__favourite">
+                                    Yêu thích
+                                </div>
+                                <div class="product__sale">
+                                    <span class="product__sale-percent">43%</span>
+                                    <span class="product__sale-text">Giảm</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__col-10-5 mt-10">
+                            <a href="#" class="product__item">
+                                <div class="product__img" style="background-image: url(https://cf.shopee.vn/file/e6726cfeeb598c5b6903e35cce53a4e4)"></div>
+                                <div class="product__info">
+                                    <h3 class="product__name">Nars - Kem Che Khuyết Điểm NARS xuất xứ Châu Âu và trung Quốc</h3>
+                                    <div class="product__price">
+                                        <span class="product__price-old">380.000đ</span>
+                                        <span class="product__price-new">304.000đ</span>
+                                        <span class="product__price-free-ship"><i class="fas fa-truck"></i></span>
+                                    </div>
+                                    <div class="product__quality">
+                                        <div class="product__quality-love loved">
+                                            <i class="far fa-heart"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="product__quality-star">
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star"></i>
+                                            <div class="product__quality-sell">Đã bán 1.7k</div>
+                                        </div>
+
+                                    </div>
+                                    <div class="product__address">
+                                        <span class="product__address-trademark">Ohui</span>
+                                        <span class="product__address-origin">Tp.Hồ Chí Minh</span>
+                                    </div>
+                                </div>
+
+                                <div class="product__favourite">
+                                    Yêu thích
+                                </div>
+                                <div class="product__sale">
+                                    <span class="product__sale-percent">43%</span>
+                                    <span class="product__sale-text">Giảm</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__col-10-5 mt-10">
+                            <a href="#" class="product__item">
+                                <div class="product__img" style="background-image: url(https://cf.shopee.vn/file/e6726cfeeb598c5b6903e35cce53a4e4)"></div>
+                                <div class="product__info">
+                                    <h3 class="product__name">Nars - Kem Che Khuyết Điểm NARS xuất xứ Châu Âu và trung Quốc</h3>
+                                    <div class="product__price">
+                                        <span class="product__price-old">380.000đ</span>
+                                        <span class="product__price-new">304.000đ</span>
+                                        <span class="product__price-free-ship"><i class="fas fa-truck"></i></span>
+                                    </div>
+                                    <div class="product__quality">
+                                        <div class="product__quality-love loved">
+                                            <i class="far fa-heart"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="product__quality-star">
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star"></i>
+                                            <div class="product__quality-sell">Đã bán 1.7k</div>
+                                        </div>
+
+                                    </div>
+                                    <div class="product__address">
+                                        <span class="product__address-trademark">Ohui</span>
+                                        <span class="product__address-origin">Tp.Hồ Chí Minh</span>
+                                    </div>
+                                </div>
+
+                                <div class="product__favourite">
+                                    Yêu thích
+                                </div>
+                                <div class="product__sale">
+                                    <span class="product__sale-percent">43%</span>
+                                    <span class="product__sale-text">Giảm</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__col-10-5 mt-10">
+                            <a href="#" class="product__item">
+                                <div class="product__img" style="background-image: url(https://cf.shopee.vn/file/e6726cfeeb598c5b6903e35cce53a4e4)"></div>
+                                <div class="product__info">
+                                    <h3 class="product__name">Nars - Kem Che Khuyết Điểm NARS xuất xứ Châu Âu và trung Quốc</h3>
+                                    <div class="product__price">
+                                        <span class="product__price-old">380.000đ</span>
+                                        <span class="product__price-new">304.000đ</span>
+                                        <span class="product__price-free-ship"><i class="fas fa-truck"></i></span>
+                                    </div>
+                                    <div class="product__quality">
+                                        <div class="product__quality-love loved">
+                                            <i class="far fa-heart"></i>
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="product__quality-star">
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star star-gold"></i>
+                                            <i class="fas fa-star"></i>
+                                            <div class="product__quality-sell">Đã bán 1.7k</div>
+                                        </div>
+
+                                    </div>
+                                    <div class="product__address">
+                                        <span class="product__address-trademark">Ohui</span>
+                                        <span class="product__address-origin">Tp.Hồ Chí Minh</span>
+                                    </div>
+                                </div>
+
+                                <div class="product__favourite">
+                                    Yêu thích
+                                </div>
+                                <div class="product__sale">
+                                    <span class="product__sale-percent">43%</span>
+                                    <span class="product__sale-text">Giảm</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Form authen bỏ class hidden để hiện  -->
+    <div class="modal hidden">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <!-- Authen form -->
+            <!-- Resigner -->
+            <div class="auth-form hidden">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <div class="auth-form__heading">Đăng Kí</div>
+                        <div class="auth-form__switch">Đăng Nhập</div>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Tên đăng nhập">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Mật khẩu">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+                    <div class="auth-form__policy-text">
+                        Bằng việc đăng kí bạn đã đồng ý với Shopee về
+                        <a href="#">Điều khoản dịch vụ</a>&<a href="#">Chính sách bảo mật</a>
+                    </div>
+                    <div class="auth-form__controls">
+                        <div class="btn">Trở lại</div>
+                        <div class="btn btn--special">Đăng kí</div>
+                    </div>
+                </div>
+                <div class="auth-form__conexts">
+                    <a href="#" class="conext-btn facebook">
+                        <i class="fab fa-facebook-square"></i>
+                        <span class="conext__facebook-text">Kết nối với Facebook</span>
+                    </a>
+                    <a href="#" class="conext-btn google">
+                        <i class="fab fa-google"></i>
+                        <span class="conext__google-text">Kết nối với Google</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Login -->
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <div class="auth-form__heading">Đăng Nhập</div>
+                        <div class="auth-form__switch">Đăng Ký</div>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Tên đăng nhập">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Mật khẩu">
+                        </div>
+                    </div>
+                    <div class="auth-form__help">
+                        <a class="link" href="#">Quên mật khẩu</a>
+                        <span class="auth-form__vertical"></span>
+                        <a class="link link--special" href="#">Cần trợ giúp?</a>
+                    </div>
+                    <div class="auth-form__controls">
+                        <div class="btn">Trở lại</div>
+                        <div class="btn btn--special">Đăng Nhập</div>
+                    </div>
+                </div>
+                <div class="auth-form__conexts">
+                    <a href="#" class="conext-btn facebook">
+                        <i class="fab fa-facebook-square"></i>
+                        <span class="conext__facebook-text">Kết nối với Facebook</span>
+                    </a>
+                    <a href="#" class="conext-btn google">
+                        <i class="fab fa-google"></i>
+                        <span class="conext__google-text">Kết nối với Google</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

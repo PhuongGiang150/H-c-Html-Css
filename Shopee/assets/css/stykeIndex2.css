@@ -1,0 +1,122 @@
+/* Content */
+
+#banner,
+.main__content {
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+/*Banner */
+
+.banner {
+    height: 240px;
+    display: flex;
+    margin: 30px auto;
+}
+
+.banner .carousel {
+    flex: 2;
+    cursor: grab;
+}
+
+.banner .ads {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    margin-left: 4px;
+}
+
+.banner .carousel img,
+.ads img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.banner .ads img {
+    width: calc(100% - 4.1px);
+    object-fit: contain;
+}
+
+
+/* Seacrh trends */
+
+.carousel__search {
+    display: flex;
+}
+
+.carousel__search-item {
+    flex: 1;
+    flex-basis: 12.5%;
+    position: relative;
+}
+
+.carousel__search-item+.carousel__search-item {
+    margin-left: 20px;
+}
+
+.carousel__search-item img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.carousel__search-item::before {
+    content: "Ô tô - xe đạp -xe máy";
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 3rem;
+    opacity: 0.5;
+}
+
+
+/* Main content */
+
+#main {
+    width: 100%;
+    background-color: var(--background-color);
+}
+
+
+/* Category */
+
+.category__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category__item {
+    flex-basis: 12.3%;
+    position: relative;
+    background-color: var(--white-color);
+    margin-right: 0.2%;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+
+.category__item img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.category__item .category__item-name {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 1px 1px var(--boder-color);
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 0 4px;
+}
