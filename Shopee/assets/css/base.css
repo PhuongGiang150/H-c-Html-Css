@@ -188,3 +188,38 @@ body {
 .hidden {
     display: none;
 }
+
+
+/* --Pagination */
+
+.pagination {
+    display: flex;
+}
+
+.pagination__list {
+    display: flex;
+    margin: auto;
+}
+
+.pagination__item {
+    margin-right: 16px;
+}
+
+.pagination__link {
+    color: var(--text-color);
+    padding: 8px 15px;
+    display: block;
+    border-radius: 2px;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.pagination__item.active .pagination__link {
+    background-color: var(--default-color);
+    color: var(--white-color);
+}
+
+.pagination__link i {
+    font-weight: 200;
+    font-size: 1.4rem;
+}
